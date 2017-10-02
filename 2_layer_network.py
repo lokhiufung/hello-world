@@ -127,7 +127,7 @@ def two_layer_model(x, y, layers_dims, learning_rate=0.0075, itera=1e-3, print_c
 
 
 # In[32]:
-
+### testing the network ###
 
 np.random.seed(1)
 train_x = np.random.randn(1, 20).reshape(1,20)
@@ -164,7 +164,7 @@ y_pred = np.squeeze(y_pred)
 
 from sklearn.metrics import accuracy_score
 accuracy_score(np.squeeze(train_y), y_pred)
-
+### accuracy score is very low
 
 # In[ ]:
 
